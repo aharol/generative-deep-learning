@@ -1,1 +1,7 @@
 **/data
+
+**/.vscode
+**/.DS_Store
+**/.venv*
+**/.history
+**/__pycache__
