@@ -36,7 +36,7 @@ class Metrics:
         ax[1, 0].plot(range(1, len(self.c_wass_loss) + 1), self.c_wass_loss, 'g') #row=0, col=1
         ax[1, 0].title.set_text("c_wass_loss") #row=0, col=0
         ax[1, 0].xaxis.set_major_locator(MaxNLocator(integer=True)) # integer xaxis
-        ax[1, 1].plot(range(1, len(self.c_gp) + 1), self.c_gp, 'w') #row=1, col=1
+        ax[1, 1].plot(range(1, len(self.c_gp) + 1), self.c_gp, 'm') #row=1, col=1
         ax[1, 1].title.set_text("c_gp") #row=0, col=0
         ax[1, 1].xaxis.set_major_locator(MaxNLocator(integer=True)) # integer xaxis
         img_path = utils.ensure_exists(Path(save_dir) / "metrics")
